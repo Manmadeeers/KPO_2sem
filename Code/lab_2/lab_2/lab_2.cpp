@@ -73,6 +73,11 @@ void main()
 	//hex for Z: 17
 	long neg_Z = -Z;
 	//hex for -Z: FFE9
+	 
+	//task16
+	long lng_max = LONG_MAX;
+	//hex for long max 7FFF
+
 	
 	//task 17
 	//4 byte
@@ -104,10 +109,11 @@ void main()
 	//task 20
 	char chr = 'a';
 	//4 bytes
-	char* ptr_chr = &chr+3;
+	char* ptr_chr = &chr;
 
 	wchar_t wchr = L'F';
 	wchar_t* ptr_wchr = &wchr;
+	ptr_wchr = ptr_wchr + 3;
 
 	short shrt = 20;
 	short* ptr_shrt = &shrt;
