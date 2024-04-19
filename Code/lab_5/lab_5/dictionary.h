@@ -1,7 +1,5 @@
 ﻿#pragma once
 #include <iostream>
-#include <cstring>
-#include <cstdlib>
 #define DICTNAMEMAXSIZE 20
 #define DICTMAXSIZE 100
 #define ENTRYNAMEMAXSIZE 30

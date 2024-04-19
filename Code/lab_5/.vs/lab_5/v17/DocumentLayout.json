@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Manmade\\Desktop\\\u041A\u041F\u041E\\KPO_2sem\\Code\\lab_5\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1F6220B7-C0BC-425C-AB13-7F35D7093DAA}|lab_5\\lab_5.vcxproj|C:\\Users\\Manmade\\Desktop\\\u041A\u041F\u041E\\KPO_2sem\\Code\\lab_5\\lab_5\\dictionary.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1F6220B7-C0BC-425C-AB13-7F35D7093DAA}|lab_5\\lab_5.vcxproj|solutionrelative:lab_5\\dictionary.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1F6220B7-C0BC-425C-AB13-7F35D7093DAA}|lab_5\\lab_5.vcxproj|C:\\Users\\Manmade\\Desktop\\\u041A\u041F\u041E\\KPO_2sem\\Code\\lab_5\\lab_5\\stdafx.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1F6220B7-C0BC-425C-AB13-7F35D7093DAA}|lab_5\\lab_5.vcxproj|solutionrelative:lab_5\\stdafx.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1F6220B7-C0BC-425C-AB13-7F35D7093DAA}|lab_5\\lab_5.vcxproj|C:\\Users\\Manmade\\Desktop\\\u041A\u041F\u041E\\KPO_2sem\\Code\\lab_5\\lab_5\\dictionary.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1F6220B7-C0BC-425C-AB13-7F35D7093DAA}|lab_5\\lab_5.vcxproj|solutionrelative:lab_5\\dictionary.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F6220B7-C0BC-425C-AB13-7F35D7093DAA}|lab_5\\lab_5.vcxproj|C:\\Users\\Manmade\\Desktop\\\u041A\u041F\u041E\\KPO_2sem\\Code\\lab_5\\lab_5\\dictionary.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1F6220B7-C0BC-425C-AB13-7F35D7093DAA}|lab_5\\lab_5.vcxproj|solutionrelative:lab_5\\dictionary.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,50 +26,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "lab_5.cpp",
-              "DocumentMoniker": "C:\\Users\\Manmade\\Desktop\\\u041A\u041F\u041E\\KPO_2sem\\Code\\lab_5\\lab_5\\lab_5.cpp",
-              "RelativeDocumentMoniker": "lab_5\\lab_5.cpp",
-              "ToolTip": "C:\\Users\\Manmade\\Desktop\\\u041A\u041F\u041E\\KPO_2sem\\Code\\lab_5\\lab_5\\lab_5.cpp",
-              "RelativeToolTip": "lab_5\\lab_5.cpp",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAADUAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-05T15:14:34.449Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "dictionary.cpp",
               "DocumentMoniker": "C:\\Users\\Manmade\\Desktop\\\u041A\u041F\u041E\\KPO_2sem\\Code\\lab_5\\lab_5\\dictionary.cpp",
               "RelativeDocumentMoniker": "lab_5\\dictionary.cpp",
               "ToolTip": "C:\\Users\\Manmade\\Desktop\\\u041A\u041F\u041E\\KPO_2sem\\Code\\lab_5\\lab_5\\dictionary.cpp",
               "RelativeToolTip": "lab_5\\dictionary.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAAAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAgwCQAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-05T15:17:01.564Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "dictionary.h",
               "DocumentMoniker": "C:\\Users\\Manmade\\Desktop\\\u041A\u041F\u041E\\KPO_2sem\\Code\\lab_5\\lab_5\\dictionary.h",
               "RelativeDocumentMoniker": "lab_5\\dictionary.h",
               "ToolTip": "C:\\Users\\Manmade\\Desktop\\\u041A\u041F\u041E\\KPO_2sem\\Code\\lab_5\\lab_5\\dictionary.h",
               "RelativeToolTip": "lab_5\\dictionary.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAdAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-04-05T15:16:18.685Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "lab_5.cpp",
+              "DocumentMoniker": "C:\\Users\\Manmade\\Desktop\\\u041A\u041F\u041E\\KPO_2sem\\Code\\lab_5\\lab_5\\lab_5.cpp",
+              "RelativeDocumentMoniker": "lab_5\\lab_5.cpp",
+              "ToolTip": "C:\\Users\\Manmade\\Desktop\\\u041A\u041F\u041E\\KPO_2sem\\Code\\lab_5\\lab_5\\lab_5.cpp",
+              "RelativeToolTip": "lab_5\\lab_5.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-05T15:14:34.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "stdafx.h",
               "DocumentMoniker": "C:\\Users\\Manmade\\Desktop\\\u041A\u041F\u041E\\KPO_2sem\\Code\\lab_5\\lab_5\\stdafx.h",
               "RelativeDocumentMoniker": "lab_5\\stdafx.h",

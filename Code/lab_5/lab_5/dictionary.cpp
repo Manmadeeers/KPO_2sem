@@ -43,11 +43,12 @@ namespace dictionary {
 				for (int j = i; j < inst.size; j++) {
 					inst.dictionary[j] = inst.dictionary[j + 1];
 				}
+				delete[]inst.dictionary[inst.size];//free memory for a node
 				inst.size--;
 				break;
 			}
 		}
-		if (!isFound) throw THROW06;
+		if (!isFound) throw(char*) THROW06;
 	}
 	Entry GetEntry(Instance inst, int id) {
 		Entry getElement{};

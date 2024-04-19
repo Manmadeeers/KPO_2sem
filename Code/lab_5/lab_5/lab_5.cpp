@@ -1,5 +1,4 @@
-﻿
-#include <iostream>
+﻿#include <iostream>
 #include "dictionary.h"
 #include "stdafx.h"
 #include <Windows.h>
@@ -9,6 +8,7 @@ int main()
 {
 	setlocale(LC_ALL, "Russian");
 	try {
+
 #ifdef TEST_CREATE_01
 		Instance test1 = Create("XXXXXXXXXXXXXXXXXXXXXXXXXXXXX", 5);
 #endif
@@ -21,22 +21,22 @@ int main()
 		AddEntry(test3, en_test3);
 #endif
 #ifdef TEST_ADDENTRY_04 
-		Instance test4 = Create((char*)"test", 0);
+		Instance test4 = Create((char*)"test",2);
 		Entry en_test4 = { 1,"xxxxxx" };
 		AddEntry(test4, en_test4);
 		AddEntry(test4, en_test4);
 #endif
 #ifdef TEST_GETENTRY_05
-		Instance test5 = Create((char*)"test", 0);
+		Instance test5 = Create((char*)"test", 1);
 		Entry en_test5 = { 1,"xxxxxx" };
 		AddEntry(test5, en_test5);
 		GetEntry(test5, 2);
 #endif
 #ifdef TEST_DELENTRY_06
-		Instance test6 = Create((char*)"test", 0);
+		Instance test6 = Create((char*)"test", 1);
 		Entry en_test6 = { 1,"xxxxxx" };
 		AddEntry(test6, en_test6);
-		DelEntry(test6, 2);
+		DelEntry(test6, 5);
 #endif
 #ifdef TEST_UPDENTRY_07
 		Instance test7 = Create((char*)"TEST", 5);
@@ -63,11 +63,15 @@ int main()
 		AddEntry(d1, e5);
 		AddEntry(d1, e6);
 		AddEntry(d1, e7);
+		//deletion
+		DelEntry(d1, 2);
+		UpdEntry(d1, 4, { 12,"Shilov" });
+		Entry find1 = GetEntry(d1, 5);
 		Print(d1);
 		//dictionary for stusents
 		Instance d2 = Create("Students", 7);
 		Entry f1 = { 1,"Ivanov" }, f2 = { 2,"Petrov" }, f3 = { 3,"Sidorov" }, f4 = { 4,"Pupkin" },
-			f5 = { 5,"Sergeev" }, f6 = { 6,"Fedorov" }, f7 = { 7,"Kozlov" };
+			f5 = { 5,"Kachinskas" }, f6 = { 6,"Fedorov" }, f7 = { 7,"Kozlov" };
 		//filling with elements
 		AddEntry(d2, f1);
 		AddEntry(d2, f2);
@@ -79,7 +83,7 @@ int main()
 		Print(d2);
 #endif
 	}
-	catch (char*e) {
-		cout << e << endl;
+	catch (char*err) {
+		cout << err << endl;
 	}
 }
