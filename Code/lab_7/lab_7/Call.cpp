@@ -2,13 +2,13 @@
 #include <iostream>
 
 namespace call{
-	int cdec(int a, int b, int c) {
+	int _cdecl cdec(int a, int b, int c) {
 		return a + b + c;
 	}
-	int cstd(int& a, int b, int c) {
+	int _stdcall cstd(int& a, int b, int c) {
 		return a * b * c;
 	}
-	int csft(int a, int b, int c, int d) {
+	int _fastcall csft(int a, int b, int c, int d) {
 		return a + b + c + d;
 	}
 }

@@ -5,14 +5,10 @@ using namespace call;
 
 void main()
 {
-	cout << "Testing fucntions!" << endl;
-	cout << "Testing cdec:";
 	int a=10, b=20, c=30;
-	cout << "Sum is: " << cdec(a, b, c) << endl;
-	cout << "Testing cstd: ";
+	int ans1 = cdec(a, 2, c);
 	int d=14, e=18, f=32;
-	cout << "The result of multiplication is : " << cstd(d, e, f) << endl;
-	cout << "Testing csft: ";
-	int g = 160, h = 500, i = 340, j = 1300;
-	cout << "Sum is: " << csft(g, h, i, j) << endl;
+	int ans2 = cstd(d, e, f);
+	int g = 8, h = 5, i = 3, j = 1;
+	int ans3 = csft(g, h, i, j);
 }
