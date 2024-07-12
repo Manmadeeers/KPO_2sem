@@ -14,6 +14,6 @@ void main()
 	cout << number3 << endl;
 	auto number4 = check_number(25.164);
 	cout << number4 << endl;
-	auto number5 = check_number('1');
+	auto number5 = check_number('А');
 	cout << number5 << endl;
 }
